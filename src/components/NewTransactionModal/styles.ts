@@ -18,9 +18,10 @@ export const Container = styled.form`
     font-weight: 400;
     font-size: 1rem;
 
+    padding: 0 0.5rem;
+
     ::placeholder {
       color: var(--text-body);
-      padding: 0 1.5rem;
     }
 
     & + input {
