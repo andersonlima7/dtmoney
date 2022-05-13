@@ -3,7 +3,7 @@ import { Header } from "./components/Header";
 import { GlobalStyle } from "./styles/global";
 import { useState } from "react";
 import { NewTransactionModal } from "./components/NewTransactionModal";
-import { TransactionsContext, TransactionsProvider } from "./TransactionContext";
+import { TransactionsProvider } from "./hooks/useTransactions";
 
 export function App() {
   // Quando se exporta sem o default, quem usa esse componente necessariamente deve usar esse nome.
