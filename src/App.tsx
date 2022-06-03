@@ -7,7 +7,7 @@ import { TransactionsProvider } from "./hooks/useTransactions";
 
 export function App() {
   // Quando se exporta sem o default, quem usa esse componente necessariamente deve usar esse nome.
-
+  // teste
   const [isNewTransactionModalOpen, setIsNewTransactionModalOpen] = useState(false);
 
   function handleOpenNewTransactionModal() {
